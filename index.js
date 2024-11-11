@@ -10,8 +10,8 @@ connectToMongo()
 const axios = require("axios")
 const cron = require('node-cron');
 
-// const serverURL = 'https://utils-backend.onrender.com/api';
-const serverURL = 'http:localhost:4000/api';
+const serverURL = 'https://utils-backend.onrender.com/api';
+// const serverURL = 'http:localhost:4000/api';
 
 const pingServer = async () => {
   try {
